@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* a custom font is set globaly */
+body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: white;
+    width: 100%;
+   
+}
+
+main{
+   
+
+    height: 100vh;
+}
+.foot {
+    background-color: aqua;
+    height: 30px;
+   
+}
+.center_tobe{
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    height: 52px;
+    border-radius: 11px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#search{
+    background-color: transparent;
+    float: right;
+    color: white;
+    padding: 8px 75px;
+    margin: 3px;
+    margin-right: 18px;
+    padding-left: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.navbar li a:hover{
+    color: gold;
+    transition: 0.75s ease-out;
+    
+}
+.container{
+    
+  
+    margin-top: 39px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+}
+img {
+    max-width: 100%
+  }
+.image {
+    flex-basis: 40%
+  }
+.text {
+    font-size: 20px;
+    padding-left: 52px;
+  }
+  .rull{
+    margin-top: 2px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+    width: 70%;
+    margin-left: 500px;
+  }
+ .text button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+ }
+
+ .text button:hover{
+    background-color: gold;
+    transition: 0.3s ease-out;
+    color: white;
+ }
