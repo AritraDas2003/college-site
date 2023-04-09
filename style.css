@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit:wght@200;300&display=swap');
 
 *{
     margin: 0;
@@ -19,7 +20,7 @@ header{
 main{
    
 
-    height: 100vh;
+    height: 200vh;
 }
 .foot {
     background-color: aqua;
@@ -77,6 +78,17 @@ main{
     justify-content: center
    
 }
+.container2{
+    
+  
+    margin-top: 39px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+}
 img {
     max-width: 100%
   }
@@ -108,3 +120,116 @@ img {
     transition: 0.3s ease-out;
     color: white;
  }
+
+.cer_girl{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 20px;
+
+
+ 
+  
+}
+
+.girl_img{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con_head{
+
+
+    text-align: center;
+}
+
+.headingFor_form{
+    margin-top: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact_form input{
+    margin-left: 462px;
+    margin-right: 400px;
+    height: 40px;
+    width: 600px;
+    margin-top: 19px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#country{
+    margin-left: 462px;
+    margin-top: 13px;
+    height: 40px;
+    width: 604px;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+#user_comment{
+    margin-left: 462px; 
+    height: 200px;
+    resize: vertical;   /*may have to be removrd later*/ 
+    width: 580px ;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.contact_form input {
+    border-radius: 10px;
+    background-color: rgb(226, 226, 237);
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: rgb(226, 226, 237);
+
+}
+select{
+    border-radius: 10px;
+    background-color: rgb(226, 226, 237);
+}
+.submit_data{
+    margin-left: 964px;
+    width: 104px;
+    height: 35px;
+    font-size: 14px;
+    border: solid black;
+    border-radius: 12px;
+}
+
+.submit_data:hover{
+    background-color: gold;
+    color: white;
+    transition: 0.4s ease-out;
+}
+
+input:hover{
+    border: solid gold;
+    color:rgb(0, 0, 0);
+    transition: 0.2s ease-out;
+}
+select:hover{
+    border: solid gold;
+    color:rgb(0, 0, 0);
+    transition: 0.2s ease-out;
+}
+
+textarea:hover{
+    border: solid gold;
+    color:rgb(0, 0, 0);
+    transition: 0.2s ease-out;
+}
+
+.headingFor_form{
+    font-size: 50px;
+}
+
+.footer_para{
+    text-align: center;
+}
